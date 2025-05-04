@@ -3,8 +3,8 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # .env o'zgaruvchilar
-TOKEN = os.getenv("TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID"))
+TOKEN = os.getenv("8012729420:AAGNWaNGikQ_bSLym8MOEeLk-2gGnLLFFUY")
+ADMIN_ID = int(os.getenv("7199653464"))
 
 # /start komandasi
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
